@@ -48,10 +48,12 @@ body {
 .name {
   margin-top: 30px;
   font-weight: var(--font-weight-700);
+  margin-bottom: 0;
 }
 
 .location {
-  margin-top: 5px;
+  font-size: 13px;
+  margin-top: 10px;
   color: var(--green);
   font-weight: var(--font-weight-600);
 }
