@@ -1,0 +1,84 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+
+  --font-size: 14px;
+  --font-famiily: "Inter", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --font-weight-600: 600;
+}
+
+body {
+  background-color: var(--off-black);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-family: var(--font-famiily);
+  font-size: var(--font-size);
+  margin: 0;
+}
+
+.container {
+  width: 375px;
+
+  background-color: var(--dark-grey);
+  border-radius: 20px;
+}
+
+.content {
+  margin: 30px 30px 30px 30px;
+}
+
+.header {
+  text-align: center;
+}
+
+.woman-img {
+  width: 30%;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.name {
+  margin-top: 30px;
+  font-weight: var(--font-weight-700);
+}
+
+.location {
+  margin-top: 5px;
+  color: var(--green);
+  font-weight: var(--font-weight-600);
+}
+
+.quote {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--grey);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size);
+  padding: 5px;
+}
